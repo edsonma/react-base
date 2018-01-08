@@ -43,7 +43,7 @@ class ComponentOne extends Component {
       <Grid>
         <Row>
         <Col>
-          <h3> This is a template of React App </h3>
+          <h3> This is the Component One </h3>
         </Col>
         </Row>
       </Grid>

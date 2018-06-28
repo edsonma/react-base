@@ -1,0 +1,14 @@
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-react-base
+  labels:
+    app: react_base
+spec:
+  containers:
+    - name: react-base-app
+      image: edsonma/react-base
+      ports:
+        - containerPort: 5000
